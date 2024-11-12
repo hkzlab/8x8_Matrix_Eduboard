@@ -874,13 +874,13 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "d50e7a56-ec71-4261-b696-1b84f649e139")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -7613,13 +7613,13 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "2a2152ff-8c24-4167-a253-738f147aef0b")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -11620,7 +11620,7 @@
 		(descr "Through hole straight pin header, 1x02, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x02 2.54mm single row")
 		(property "Reference" "J1"
-			(at -1.131714 5.411572 180)
+			(at -0.369714 5.411572 180)
 			(layer "F.SilkS")
 			(uuid "2b6c6b77-14f3-4b0f-8a47-7f8246d6ffed")
 			(effects
@@ -18881,9 +18881,9 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "DNF"
 			(at 5.08 0 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "e1a3ffcd-9be6-46c8-acd3-bd6f8e2c3a7f")
 			(effects
 				(font
@@ -19844,7 +19844,7 @@
 		(descr "Through hole straight pin header, 1x03, 2.54mm pitch, single row")
 		(tags "Through hole pin header THT 1x03 2.54mm single row")
 		(property "Reference" "J2"
-			(at 0.115714 -2.668372 180)
+			(at 0.369714 -2.668372 180)
 			(layer "F.SilkS")
 			(uuid "9d50cbf1-cd35-4edb-962a-1f9fbe86f0a9")
 			(effects
@@ -25972,9 +25972,9 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "DNF"
 			(at 5.08 0 90)
-			(layer "F.Fab")
+			(layer "F.SilkS")
 			(uuid "79591d0d-865b-4f7d-9427-664a95a1c1ae")
 			(effects
 				(font
@@ -27103,13 +27103,13 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 90)
-			(layer "F.Fab")
+			(at 2.5 0 90)
+			(layer "F.SilkS")
 			(uuid "5c60857e-4016-488c-911f-2920320b399d")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -30701,13 +30701,13 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 2.5 0)
-			(layer "F.Fab")
+			(at 2.5 0 0)
+			(layer "F.SilkS")
 			(uuid "1ddcca2f-71f5-417b-880d-8f81cfd2e755")
 			(effects
 				(font
-					(size 1 1)
-					(thickness 0.15)
+					(size 0.7 0.7)
+					(thickness 0.1)
 				)
 			)
 		)
@@ -31299,14 +31299,15 @@
 			(justify left)
 		)
 	)
-	(gr_text "Columns"
-		(at 136.652 60.198 0)
+	(gr_text "Columns:"
+		(at 136.398 60.198 0)
 		(layer "F.SilkS")
 		(uuid "09454b73-f719-470a-81fb-084386efaba2")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 			(justify left bottom)
 		)
@@ -31356,6 +31357,18 @@
 			)
 		)
 	)
+	(gr_text "ROWS"
+		(at 182.626 115.062 90)
+		(layer "F.SilkS")
+		(uuid "2ab56448-bbcf-4706-a642-e740a975146c")
+		(effects
+			(font
+				(size 1 2)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
 	(gr_text "7"
 		(at 152.4 61.722 0)
 		(layer "F.SilkS")
@@ -31375,6 +31388,18 @@
 		(effects
 			(font
 				(size 3 3)
+				(thickness 0.2)
+				(bold yes)
+			)
+		)
+	)
+	(gr_text "COLUMNS"
+		(at 148.082 149.86 0)
+		(layer "F.SilkS")
+		(uuid "4ddbb7b4-8056-49bf-a9bc-7b09e24faddd")
+		(effects
+			(font
+				(size 1 2)
 				(thickness 0.2)
 				(bold yes)
 			)
@@ -31411,7 +31436,8 @@
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
 		)
 	)
@@ -31680,7 +31706,7 @@
 		)
 	)
 	(gr_text "SCK|SDA ->"
-		(at 146.095572 45.327714 0)
+		(at 146.095572 46.089714 0)
 		(layer "F.SilkS")
 		(uuid "f743a1ea-8527-41ce-9bc5-fbed34340e85")
 		(effects
@@ -31704,16 +31730,16 @@
 			(justify left)
 		)
 	)
-	(gr_text "ROW\nAddress"
-		(at 108.005572 67.403714 0)
+	(gr_text "ROW Address:"
+		(at 104.648 71.882 90)
 		(layer "F.SilkS")
 		(uuid "fe74b53e-480a-4622-a071-eee97da8b42e")
 		(effects
 			(font
 				(size 1 1)
-				(thickness 0.1)
+				(thickness 0.2)
+				(bold yes)
 			)
-			(justify right bottom)
 		)
 	)
 	(gr_text "6"

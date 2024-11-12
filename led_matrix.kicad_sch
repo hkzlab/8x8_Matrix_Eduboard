@@ -16523,7 +16523,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "DNF"
 			(at 44.704 36.068 90)
 			(effects
 				(font
@@ -17883,7 +17883,7 @@
 				)
 			)
 		)
-		(property "Value" "1K"
+		(property "Value" "DNF"
 			(at 48.514 36.068 90)
 			(effects
 				(font
