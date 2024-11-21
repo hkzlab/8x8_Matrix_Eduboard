@@ -11887,7 +11887,7 @@
 		(descr "CP, Radial series, Radial, pin pitch=2.50mm, , diameter=6.3mm, Electrolytic Capacitor")
 		(tags "CP Radial series Radial pin pitch 2.50mm  diameter 6.3mm Electrolytic Capacitor")
 		(property "Reference" "C2"
-			(at 1.25 -4.4 180)
+			(at -2.8848 0.0508 180)
 			(layer "F.SilkS")
 			(uuid "929cf2f5-38f8-4230-ae50-a6ba92198e61")
 			(effects
@@ -24240,7 +24240,7 @@
 		(descr "Diode, DO-41_SOD81 series, Axial, Horizontal, pin pitch=10.16mm, , length*diameter=5.2*2.7mm^2, , http://www.diodes.com/_files/packages/DO-41%20(Plastic).pdf")
 		(tags "Diode DO-41_SOD81 series Axial Horizontal pin pitch 10.16mm  length 5.2mm diameter 2.7mm")
 		(property "Reference" "D65"
-			(at -2.159 0 180)
+			(at 10.2616 -2.9972 180)
 			(layer "F.SilkS")
 			(uuid "f4d13e88-6ccd-47cc-bc1f-ce5ba9fe2129")
 			(effects
