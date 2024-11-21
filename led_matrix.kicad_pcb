@@ -7613,12 +7613,12 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 2.5 0 0)
+			(at 0.545572 2.147714 0)
 			(layer "F.SilkS")
 			(uuid "2a2152ff-8c24-4167-a253-738f147aef0b")
 			(effects
 				(font
-					(size 0.7 0.7)
+					(size 0.8 0.8)
 					(thickness 0.1)
 				)
 			)
