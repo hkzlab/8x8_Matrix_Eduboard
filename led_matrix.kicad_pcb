@@ -31703,8 +31703,8 @@
 			)
 		)
 	)
-	(gr_text "ROWS"
-		(at 182.626 118.618 90)
+	(gr_text "R\nO\nW\nS"
+		(at 182.626 118.618 0)
 		(layer "F.SilkS")
 		(uuid "2ab56448-bbcf-4706-a642-e740a975146c")
 		(effects
